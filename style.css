@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+.navbar {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 30px;
+}
+
+.navbar nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.lang-dropdown {
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.hero {
+  background: linear-gradient(to right, #007bff, #4facfe);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 span {
+  color: #ffe600;
+}
+
+.hero-buttons a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: white;
+  color: #007bff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.site-footer {
+  background: #f9f9f9;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.subscribe-form {
+  margin: 20px 0;
+}
+
+.subscribe-form input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.subscribe-form button {
+  padding: 10px 16px;
+  background: #00aaff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  margin-top: 10px;
+}
+
+.social-links a {
+  margin: 0 8px;
+  color: #666;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #007bff;
+}
