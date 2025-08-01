@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NTS Global</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <img src="assets/logo.png" alt="Logo" class="logo-img" />
+      <span id="siteTitle" class="logo-text">NTS Global</span>
+    </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="../About-Us-main/index.html">About Us</a>
+      <a href="../NTSserviceoverviewpage-main/service.html">Services</a>
+      <a href="../web-page-main/career.html">Careers</a>
+      <a href="../NTS-contact-Webpage-main/index.html">Contact</a>
+      <a href="../newblog-page-main/index.html">Blog</a>
+    </nav>
+    <div class="language-link">
+      <select id="languageSelector" onchange="changeLanguage()" class="lang-dropdown">
+        <option value="en">English</option>
+        <option value="te">తెలుగు</option>
+        <option value="hi">हिन्दी</option>
+        <option value="mr">मराठी</option>
+      </select>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <h1 id="heroLine"><strong>Innovate.</strong> <strong>Create.</strong> <strong>Elevate.</strong></h1>
+    <p id="heroSub">Transforming your digital landscape with cutting-edge solutions and visionary design.</p>
+    <div class="hero-buttons">
+      <a id="mainButton" href="#services" class="btn-primary">Explore Services <i class='bx bx-right-arrow-alt'></i></a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <h3>NTS Global</h3>
+    <p>Stay updated with our latest news</p>
+
+    <div class="subscribe-form">
+      <input type="email" id="emailInput" placeholder="✉ Enter your email" />
+      <button id="subscribeBtn">Subscribe</button>
+    </div>
+
+    <div class="footer-bottom">
+      <span class="copyright">
+        <i class='bx bx-copyright'></i> 2025 NTS Global
+      </span>
+      <div class="social-links">
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="language.js"></script>
+</body>
+</html>
